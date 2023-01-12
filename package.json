@@ -1,8 +1,9 @@
 {
-  "name": "cdktf-surreal-backend",
+  "name": "@awlsring/cdktf-surreal-backend",
+  "description": "A package that vends a construct to setup the surreal backend in CDKTF",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattcanemail/cdktf-surreal-backend.git"
+    "url": "https://github.com/awlsring/cdktf-surreal-backend.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -38,8 +39,8 @@
     "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "cdktf": "0.13.0",
-    "constructs": "10.0.12",
+    "cdktf": "0.13.2",
+    "constructs": "10.1.52",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.7",
     "eslint-import-resolver-typescript": "^3.5.3",
@@ -58,12 +59,14 @@
     "typescript": "^4.9.4"
   },
   "peerDependencies": {
-    "cdktf": "^0.13.0",
-    "constructs": "^10.0.12"
+    "cdktf": "^0.13.2",
+    "constructs": "^10.1.52"
   },
   "keywords": [
+    "backend",
     "cdk",
-    "cdktf"
+    "cdktf",
+    "surrealdb"
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
