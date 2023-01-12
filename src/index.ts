@@ -2,12 +2,12 @@ import { HttpBackend } from 'cdktf';
 import { Construct } from 'constructs';
 
 export interface SurrealBackendProps {
-  address: string;
-  username: string;
-  password: string;
-  project: string;
-  stack: string;
-  skipCertVerification?: boolean;
+  readonly address: string;
+  readonly username: string;
+  readonly password: string;
+  readonly project: string;
+  readonly stack: string;
+  readonly skipCertVerification?: boolean;
 }
 
 export class SurrealBackend extends HttpBackend {
