@@ -1,4 +1,5 @@
 const { cdktf } = require('projen');
+const { NpmAccess } = require('projen/lib/javascript');
 const project = new cdktf.ConstructLibraryCdktf({
   author: 'awlsring',
   authorAddress: 'mattcanemail@gmail.com',
@@ -15,5 +16,6 @@ const project = new cdktf.ConstructLibraryCdktf({
     'surrealdb',
     'backend',
   ],
+  npmAccess: NpmAccess.PUBLIC,
 });
 project.synth();
