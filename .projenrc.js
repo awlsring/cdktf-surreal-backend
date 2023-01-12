@@ -5,11 +5,9 @@ const project = new cdktf.ConstructLibraryCdktf({
   cdktfVersion: '^0.13.0',
   defaultReleaseBranch: 'main',
   name: 'cdktf-surreal-backend',
-  repositoryUrl: 'https://github.com/mattcanemail/cdktf-surreal-backend.git',
-
-  // deps: [],                /* Runtime dependencies of this module. */
-  // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],             /* Build dependencies for this module. */
-  // packageName: undefined,  /* The "name" in package.json. */
+  repositoryUrl: 'https://github.com/awlsring/cdktf-surreal-backend.git',
+  description: 'A package that vends a construct to setup the surreal backend in CDKTF',
+  packageName: '@awlsring/cdktf-surreal-backend',
+  releaseToNpm: true,
 });
 project.synth();
