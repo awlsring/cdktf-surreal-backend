@@ -4,7 +4,6 @@ const project = new cdktf.ConstructLibraryCdktf({
   author: 'awlsring',
   authorAddress: 'mattcanemail@gmail.com',
   cdktfVersion: '^0.13.2',
-  constructsVersion: '^10.1.52',
   defaultReleaseBranch: 'main',
   name: 'cdktf-surreal-backend',
   repositoryUrl: 'https://github.com/awlsring/cdktf-surreal-backend.git',
@@ -16,6 +15,37 @@ const project = new cdktf.ConstructLibraryCdktf({
     'surrealdb',
     'backend',
   ],
+  deps: [
+    'constructs@^10.1.52',
+  ],
+  devDeps: [
+    'constructs@^10.1.52',
+  ],
+  gitignore: [
+    '.DS_Store',
+    '**/*.js',
+    '**/*.d.ts',
+    'package-lock.json',
+    'yarn.lock',
+    '/test/__snapshots__/',
+    '.gen',
+    '.vscode',
+    'cdktf.out',
+    'terraform*',
+    '.terraform*',
+    'cdktf.json',
+  ],
+  autoApproveOptions: {
+    secret: 'GITHUB_TOKEN',
+    allowedUsernames: ['awlsring'],
+  },
+  githubOptions: {
+    projenTokenSecret: 'PROJEN_GITHUB_TOKEN',
+  },
+  publishToPypi: {
+    distName: 'cdktf-surreal-backend',
+    module: 'cdktf_surreal_backend',
+  },
   npmAccess: NpmAccess.PUBLIC,
 });
 project.synth();
