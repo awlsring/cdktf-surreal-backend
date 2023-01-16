@@ -42,10 +42,6 @@ const project = new cdktf.ConstructLibraryCdktf({
   githubOptions: {
     projenTokenSecret: 'PROJEN_GITHUB_TOKEN',
   },
-  publishToPypi: {
-    distName: 'cdktf-surreal-backend',
-    module: 'cdktf_surreal_backend',
-  },
   npmAccess: NpmAccess.PUBLIC,
 });
 project.synth();
