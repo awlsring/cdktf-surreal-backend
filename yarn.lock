@@ -1546,14 +1546,14 @@ case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdktf@0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/cdktf/-/cdktf-0.13.2.tgz#80e2b7fbf7687cbc5207e93fe193baee4acb63ec"
-  integrity sha512-jImOi2LPalxi6RtoMRTPZ/R/FQQ6B3I5++cbbHWqU2Th4wie2YlMt3IB/Qwaho74QfRHf211nT5oFcWfBj1DyA==
+cdktf@0.14.3:
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/cdktf/-/cdktf-0.14.3.tgz#d37f35d7af3b1984541581cc9428bafd682f5494"
+  integrity sha512-sVxp6xfzEoOCejixLgeaQo9mQPEImFa7JSWoOMIyxlA0NFVPrEWMvPcfM5iONCd1m8tU6w++RZG0Q9bLPn3Lgw==
   dependencies:
     archiver "5.3.1"
-    json-stable-stringify "^1.0.1"
-    semver "^7.3.7"
+    json-stable-stringify "^1.0.2"
+    semver "^7.3.8"
 
 chalk@^2.0.0, chalk@^2.4.2:
   version "2.4.2"
@@ -4199,7 +4199,7 @@ json-stable-stringify-without-jsonify@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==
 
-json-stable-stringify@^1.0.1:
+json-stable-stringify@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-stable-stringify/-/json-stable-stringify-1.0.2.tgz#e06f23128e0bbe342dc996ed5a19e28b57b580e0"
   integrity sha512-eunSSaEnxV12z+Z73y/j5N37/In40GK4GmsSy+tEHJMxknvqnA7/djeYtAgW0GsWHUfg+847WJjKaEylk2y09g==

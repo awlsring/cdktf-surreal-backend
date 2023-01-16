@@ -3,7 +3,8 @@ const { NpmAccess } = require('projen/lib/javascript');
 const project = new cdktf.ConstructLibraryCdktf({
   author: 'awlsring',
   authorAddress: 'mattcanemail@gmail.com',
-  cdktfVersion: '^0.13.2',
+  cdktfVersion: '^0.14.3',
+  constructsVersion: '^10.1.52',
   defaultReleaseBranch: 'main',
   name: 'cdktf-surreal-backend',
   repositoryUrl: 'https://github.com/awlsring/cdktf-surreal-backend.git',
@@ -19,7 +20,7 @@ const project = new cdktf.ConstructLibraryCdktf({
     'constructs@^10.1.52',
   ],
   devDeps: [
-    'constructs@^10.1.52',
+    'constructs@10.1.52',
   ],
   gitignore: [
     '.DS_Store',
@@ -41,6 +42,10 @@ const project = new cdktf.ConstructLibraryCdktf({
   },
   githubOptions: {
     projenTokenSecret: 'PROJEN_GITHUB_TOKEN',
+  },
+  publishToPypi: {
+    distName: 'cdktf-surreal-backend',
+    module: 'cdktf_surreal_backend',
   },
   npmAccess: NpmAccess.PUBLIC,
 });

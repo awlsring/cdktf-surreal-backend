@@ -140,6 +140,7 @@ Creates a TerraformRemoteState resource that accesses this backend.
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@awlsring/cdktf-surreal-backend.SurrealBackend.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@awlsring/cdktf-surreal-backend.SurrealBackend.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@awlsring/cdktf-surreal-backend.SurrealBackend.isBackend">isBackend</a></code> | *No description.* |
 
 ---
@@ -173,6 +174,20 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@awlsring/cdktf-surreal-backend.SurrealBackend.isTerraformElement"></a>
+
+```typescript
+import { SurrealBackend } from '@awlsring/cdktf-surreal-backend'
+
+SurrealBackend.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@awlsring/cdktf-surreal-backend.SurrealBackend.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
