@@ -1,18 +1,11 @@
-import { ConstructLibraryCdktf } from 'projen/lib/cdktf';
-import { NpmAccess } from 'projen/lib/javascript';
+import { AwlsringCdktfLibrary } from '@awlsring/projen-commons';
 
-const project = new ConstructLibraryCdktf({
-  author: 'awlsring',
-  authorAddress: 'mattcanemail@gmail.com',
+const project = new AwlsringCdktfLibrary({
   cdktfVersion: '^0.14.3',
   constructsVersion: '^10.1.52',
-  defaultReleaseBranch: 'main',
   name: 'cdktf-surreal-backend',
-  projenrcTs: true,
   repositoryUrl: 'https://github.com/awlsring/cdktf-surreal-backend.git',
   description: 'A package that vends a construct to setup the surreal backend in CDKTF',
-  packageName: '@awlsring/cdktf-surreal-backend',
-  releaseToNpm: true,
   keywords: [
     'cdktf',
     'surrealdb',
@@ -24,6 +17,7 @@ const project = new ConstructLibraryCdktf({
   devDeps: [
     'constructs@10.1.52',
   ],
+  publish: true,
   gitignore: [
     '.DS_Store',
     '**/*.js',
@@ -38,18 +32,5 @@ const project = new ConstructLibraryCdktf({
     '.terraform*',
     'cdktf.json',
   ],
-  autoApproveUpgrades: true,
-  autoApproveOptions: {
-    secret: 'GITHUB_TOKEN',
-    allowedUsernames: ['awlsring', 'github-actions'],
-  },
-  githubOptions: {
-    projenTokenSecret: 'PROJEN_GITHUB_TOKEN',
-  },
-  publishToPypi: {
-    distName: 'cdktf-surreal-backend',
-    module: 'cdktf_surreal_backend',
-  },
-  npmAccess: NpmAccess.PUBLIC,
 });
 project.synth();
