@@ -18,7 +18,6 @@
     "package": "npx projen package",
     "package-all": "npx projen package-all",
     "package:dotnet": "npx projen package:dotnet",
-    "package:go": "npx projen package:go",
     "package:js": "npx projen package:js",
     "package:python": "npx projen package:python",
     "post-compile": "npx projen post-compile",
@@ -38,7 +37,7 @@
     "organization": false
   },
   "devDependencies": {
-    "@awlsring/projen-commons": "^0.0.6",
+    "@awlsring/projen-commons": "^0.0.7",
     "@types/jest": "^27",
     "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
@@ -134,9 +133,6 @@
       "dotnet": {
         "namespace": "Awlsring.CdktfSurrealBackend",
         "packageId": "Awlsring.CdktfSurrealBackend"
-      },
-      "go": {
-        "moduleName": "github.com/awlsring/cdktf-surreal-backend"
       }
     },
     "tsc": {

@@ -10,10 +10,10 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@awlsring/projen-commons@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/@awlsring/projen-commons/-/projen-commons-0.0.6.tgz"
-  integrity sha512-3AzwTpOsp3sNMffNFHZOZ6Yt7NEA+nIFCKHxRKnK2QgnT+SHFZsjg1/RZQ6tZigajRuEQVR6TJo+WfdkkZy8pQ==
+"@awlsring/projen-commons@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/@awlsring/projen-commons/-/projen-commons-0.0.7.tgz"
+  integrity sha512-lcYirI+FfyPTYb0q9K4839bd/OTXGZ33G/sIUeIzx/O9dZ3pYMpImTSANf473UgbnV5iqUBkCTV90yrHFcwfOA==
   dependencies:
     projen "^0.67.10"
 
