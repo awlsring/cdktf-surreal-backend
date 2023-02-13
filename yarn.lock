@@ -10,10 +10,10 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@awlsring/projen-commons@^0.0.28":
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/@awlsring/projen-commons/-/projen-commons-0.0.28.tgz#6968fe91ece629e24dd01f1bea5bdba6ff54c7c3"
-  integrity sha512-+EMLTtRuHvafrnMZNraPYPczvTNqFJ9u67wMTOv7EzrMdGsDxcAp+wU7WsHMGR/XDHfFkIbbp7azPB/D6Gd7jA==
+"@awlsring/projen-commons@^0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@awlsring/projen-commons/-/projen-commons-0.0.29.tgz#d1ef28e8741ef187e1ca97941d7424ecb3d24c39"
+  integrity sha512-a8V/21/KwH5iWoykWFtXkkcw1knrBuym33gYWV1a3qRMiHQ9uiulXZCBJ4dMYp8eGTTYrX+ecqhgDZ2FGAK5WQ==
   dependencies:
     projen "^0.67.50"
 
@@ -1825,9 +1825,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.1.52:
-  version "10.1.248"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.248.tgz#d7d5c68242fde4cc7141a9c54c8730745735cd52"
-  integrity sha512-6muv4JFCExj2q36LieanBs4i1/8D8F9FxGBOzH2lphhz0rZNNixGzhGOdAQPGIyk81bcGe6D0ob8XHeXH1VU5Q==
+  version "10.1.249"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.249.tgz#2eef9dc0b22a37e88b8e939fe4da1cde7edd7324"
+  integrity sha512-xttf/MWHfvMyOjg88CYymlC7RZCP7kF6knA1xtJgDfhvel11uYUhomEGxuQiqy6BOvKyKxJUBaGl8jfp8s1MLA==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -4133,10 +4133,10 @@ jsii-diff@^1.74.0:
     log4js "^6.7.1"
     yargs "^16.2.0"
 
-jsii-docgen@^7.0.231:
-  version "7.0.231"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-7.0.231.tgz#9d6178df75c8f464a33d17fbada10990c103fd10"
-  integrity sha512-xKb1TaqJrZV2K08eDzq495kXjmRa7hyxSi+iIkuqJtco9nlKfvmHRNnlCJFTCLR5UNUAV+DQXoeJVQgz/fDFFA==
+jsii-docgen@^7.0.232:
+  version "7.0.232"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-7.0.232.tgz#b4c3faf90e94a394fe89bd55b70454308b89e175"
+  integrity sha512-+tK7bZUhCjlWPplKbktVH6T5LYlLLAa3DLBWQ8EhpaBMF6KnMS8lraYBKLpyszJ8aAfMhJEwVr7ZlihH5xjmeA==
   dependencies:
     "@jsii/spec" "^1.74.0"
     case "^1.6.3"
