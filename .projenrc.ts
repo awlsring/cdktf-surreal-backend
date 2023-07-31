@@ -1,8 +1,8 @@
 import { AwlsringCdktfLibrary } from '@awlsring/projen-commons';
 
 const project = new AwlsringCdktfLibrary({
-  cdktfVersion: '^0.14.3',
-  constructsVersion: '^10.1.52',
+  cdktfVersion: '^0.14.0',
+  constructsVersion: '^10.0.25',
   majorVersion: 1,
   name: 'cdktf-surreal-backend',
   repositoryUrl: 'https://github.com/awlsring/cdktf-surreal-backend.git',
@@ -11,12 +11,6 @@ const project = new AwlsringCdktfLibrary({
     'cdktf',
     'surrealdb',
     'backend',
-  ],
-  deps: [
-    'constructs@^10.1.52',
-  ],
-  devDeps: [
-    'constructs@10.1.52',
   ],
   publish: true,
   gitignore: [
